@@ -71,6 +71,17 @@ section {
     padding: 3rem 0;
 }
 
+#about {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a79d32142330053.626520b58bc3f.jpg') center/cover no-repeat;
+    color: #fff;
+}
+
+#about .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
 section h2 {
     text-align: center;
     margin-bottom: 2rem;
