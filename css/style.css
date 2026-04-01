@@ -1,0 +1,137 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero */
+#hero {
+    background-color: #3498db;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 3rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+/* Artists and Releases */
+.artist-grid, .release-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.artist, .release {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.listen-btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
+
+/* Contact */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        display: block;
+        margin-bottom: 1rem;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
