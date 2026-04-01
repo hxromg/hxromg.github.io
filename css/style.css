@@ -30,9 +30,16 @@ header {
     border-bottom: 1px solid #333;
 }
 
-header h1 {
+.logo {
     display: inline-block;
     margin-right: 2rem;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    max-width: 200px;
+}
 }
 
 nav ul {
